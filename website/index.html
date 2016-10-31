@@ -81,9 +81,9 @@
 		<aside id="left-panel">
 			<nav>
 				<ul>
-                                        <li class="{{? it.selected === 'index' }}active{{?}}">
-                                                <a href="/"><i class="fa fa-home"></i> <span class="menu-item-parent">Home</span></a>
-                                        </li>
+					<li class="{{? it.selected === 'index' }}active{{?}}">
+							<a href="/"><i class="fa fa-home"></i> <span class="menu-item-parent">Home</span></a>
+					</li>
 					<li class="{{? it.selected === 'getting_started' }}active{{?}}">
 						<a href="/getting_started"><i class="fa fa-rocket"></i> <span class="menu-item-parent">Getting Started</span></a>
 					</li>
@@ -110,7 +110,7 @@
 
 			<div id="ribbon">
 				<ol class="breadcrumb">
-					<li>UNOMP BETA</li><li>{{=it.selected}}</li>
+					<li>{{=it.portalConfig.website.siteTitle}}</li><li>{{=it.selected}}</li>
 				</ol>
 			</div>
 			<!-- END RIBBON -->
@@ -131,7 +131,7 @@
         			  <span class="txt-color-white"><i class="fa fa-heart"></i>&nbsp; Support this project by donating&nbsp;<i class="fa fa-btc icon-x2"></i>&nbsp; 19svwpxWAhD4zsfeEnnxExZgnQ46A3mrt3</span>
     				</div>
 				<div class="col-xs-12 col-sm-6">
-                                  <span class="txt-color-white"><i class="fa fa-github"></i>&nbsp; Find me at&nbsp;<a href="https://github.com/UNOMP/unified-node-open-mining-portal" target="_blank">Unified Node Open Mining Portal</a></span>
+				  <span class="txt-color-white"><i class="fa fa-github"></i>&nbsp; Find me at&nbsp;<a href="https://github.com/UNOMP/unified-node-open-mining-portal" target="_blank">Unified Node Open Mining Portal</a></span>
 				</div>
 			</div>
 		</div>
