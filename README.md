@@ -1,4 +1,12 @@
-[![Build Status](https://travis-ci.org/UNOMP/unified-node-open-mining-portal.png?branch=master)](https://travis-ci.org/UNOMP/unified-node-open-mining-portal)
+## UNOMP Remastered
+
+This repo is only adding custom modifications to the website script, containing vulnerability fixes as well as changes in design. It may also contains changes to the Node.JS itself.
+
+#### Credits
+All credits go to UNOMP (unified node open mining portal), you can find their repo here.
+https://github.com/UNOMP/unified-node-open-mining-portal
+
+# _____________________________________________________________________________________________
 
 #### Unified NOMP
 
